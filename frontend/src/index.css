@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+input {
+  color-scheme: dark;
+}
+
+:root {
+  --rdp-accent-color: tailwind("colors.zinc.400");
+  --rdp-background-color: tailwind("colors.zinc.100");
+}
